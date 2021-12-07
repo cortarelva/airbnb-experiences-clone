@@ -1,0 +1,25 @@
+
+
+.hero{
+    display:flex;
+    flex-direction:column;
+
+}
+.hero-img{
+    max-width:1000px;
+    width:100%;
+    height:auto;
+    align-self: center;
+}
+section h1{
+    padding-left:50px;
+    font-size:3em;
+    font-weight:600;
+    margin-bottom:1em;
+}
+section p{
+    padding-left:50px;
+    font-size:1.5em;
+    font-weight:300;
+    margin-top:0;
+}

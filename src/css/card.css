@@ -1,0 +1,34 @@
+.card{
+    font-size:1.1em;
+    position:relative;
+}
+.card-stats{
+    letter-spacing: 1;
+}
+.card span{
+    text-align: left;
+} 
+
+.card .star{
+    color: #FE395C;
+}
+
+.card-section{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 768px){
+    .card-section {
+        grid-template-columns: auto auto;
+    }
+}
+
+.card-badge{
+    position:absolute;
+    background:#fff;
+    padding:5px;
+    margin-left:20px;
+    border-radius:5px;
+}
